@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sunflower&display=swap');
+*{
+ padding: 0%;
+ margin: 0px;
+}
+
+
+
+body{
+ font-family: 'Roboto', sans-serif;
+}
+h2{
+ font-size: 2em;
+ font-family: sans-serif;
+ font-weight: bold;
+ color: orange;
+}
+.container{
+ margin: 0em 3em 0em 3em;
+ padding: 0rem 1em 0rem 1rem;
+}
+
+#navigation{
+ height: 90px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 1rem 10rem;
+
+}
+#navigation .logo{
+ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(121,80,234,1) 100%);
+ color: #fff;
+ padding: .5em;
+ border-radius: 50px;
+
+ 
+}
+#navigation .logo h1{
+  font-size: 2em;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ .menu ul{
+  display: inline-flex;
+  list-style: none;
+
+ }
+
+ .menu ul li{
+  margin: 0rem 1.5rem;
+  font-weight: bold;
+  color: #16171C;
+  font-family: sans-serif;
+ }
+ .menu ul li:hover{
+  color: #7950EA;
+  cursor: pointer;
+ }
+ .right img{
+  width: 506px;
+  height: 443px;
+  padding-right: 10em;
+ }
+
+
+#welcome{
+ height: 500px;
+ display: flex;
+ justify-content: space-between;
+ margin: 5em 10em;
+}
+.left{
+ color: #000000;
+ margin-top: 5em;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
+}
+.left-one{
+ padding: 1em;
+ margin-right: 10em;
+ width: 30%;
+}
+.left-second{
+ margin-right: 10em;
+ width: 70%;
+}
+
+#introduction{
+ background: red;
+ height: 200px;
+}
+#experiance{
+ background: orange;
+ height: 200px;
+}
+#services{
+ background: #333;
+ height: 200px;
+}
+
+.menu span{
+ font-size: 2em;
+ font-family: sans-serif;
+ font-weight: bold;
+ display: none;
+}
+
+
+@media screen and (max-width:399px) {
+ .menu ul{
+  display: none;
+ }
+ .menu span{
+ font-size: 2em;
+ font-family: sans-serif;
+ font-weight: bold;
+ margin-left: 8em;
+ display: flex;
+}
+
+}
